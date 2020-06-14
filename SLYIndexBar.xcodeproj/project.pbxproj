@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA75C3632494DB8D00B72DAB /* ViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DA75C3622494DB8D00B72DAB /* ViewReusePool.m */; };
+		DAB2F32824872DA500612EC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2F32724872DA500612EC0 /* AppDelegate.m */; };
+		DAB2F32B24872DA500612EC0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2F32A24872DA500612EC0 /* SceneDelegate.m */; };
+		DAB2F32E24872DA500612EC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2F32D24872DA500612EC0 /* ViewController.m */; };
+		DAB2F33124872DA500612EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB2F32F24872DA500612EC0 /* Main.storyboard */; };
+		DAB2F33324872DA900612EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB2F33224872DA900612EC0 /* Assets.xcassets */; };
+		DAB2F33624872DA900612EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB2F33424872DA900612EC0 /* LaunchScreen.storyboard */; };
+		DAB2F33924872DA900612EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2F33824872DA900612EC0 /* main.m */; };
+		DAB2F34324872DA900612EC0 /* SLYIndexBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2F34224872DA900612EC0 /* SLYIndexBarTests.m */; };
+		DAB2F34E24872DA900612EC0 /* SLYIndexBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2F34D24872DA900612EC0 /* SLYIndexBarUITests.m */; };
+		DAB2F35D2487336300612EC0 /* SLYIndexTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2F35C2487336300612EC0 /* SLYIndexTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB2F33F24872DA900612EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB2F31B24872DA500612EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB2F32224872DA500612EC0;
+			remoteInfo = SLYIndexBar;
+		};
+		DAB2F34A24872DA900612EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB2F31B24872DA500612EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB2F32224872DA500612EC0;
+			remoteInfo = SLYIndexBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA75C3612494DB8D00B72DAB /* ViewReusePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewReusePool.h; sourceTree = "<group>"; };
+		DA75C3622494DB8D00B72DAB /* ViewReusePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewReusePool.m; sourceTree = "<group>"; };
+		DAB2F32324872DA500612EC0 /* SLYIndexBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLYIndexBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB2F32624872DA500612EC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB2F32724872DA500612EC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB2F32924872DA500612EC0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DAB2F32A24872DA500612EC0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DAB2F32C24872DA500612EC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAB2F32D24872DA500612EC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAB2F33024872DA500612EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB2F33224872DA900612EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB2F33524872DA900612EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB2F33724872DA900612EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB2F33824872DA900612EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB2F33E24872DA900612EC0 /* SLYIndexBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLYIndexBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB2F34224872DA900612EC0 /* SLYIndexBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLYIndexBarTests.m; sourceTree = "<group>"; };
+		DAB2F34424872DA900612EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB2F34924872DA900612EC0 /* SLYIndexBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLYIndexBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB2F34D24872DA900612EC0 /* SLYIndexBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLYIndexBarUITests.m; sourceTree = "<group>"; };
+		DAB2F34F24872DA900612EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB2F35B2487336300612EC0 /* SLYIndexTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLYIndexTableView.h; sourceTree = "<group>"; };
+		DAB2F35C2487336300612EC0 /* SLYIndexTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLYIndexTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB2F32024872DA500612EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2F33B24872DA900612EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2F34624872DA900612EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB2F31A24872DA500612EC0 = {
+			isa = PBXGroup;
+			children = (
+				DAB2F32524872DA500612EC0 /* SLYIndexBar */,
+				DAB2F34124872DA900612EC0 /* SLYIndexBarTests */,
+				DAB2F34C24872DA900612EC0 /* SLYIndexBarUITests */,
+				DAB2F32424872DA500612EC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB2F32424872DA500612EC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2F32324872DA500612EC0 /* SLYIndexBar.app */,
+				DAB2F33E24872DA900612EC0 /* SLYIndexBarTests.xctest */,
+				DAB2F34924872DA900612EC0 /* SLYIndexBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB2F32524872DA500612EC0 /* SLYIndexBar */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2F32624872DA500612EC0 /* AppDelegate.h */,
+				DAB2F32724872DA500612EC0 /* AppDelegate.m */,
+				DAB2F32924872DA500612EC0 /* SceneDelegate.h */,
+				DAB2F32A24872DA500612EC0 /* SceneDelegate.m */,
+				DAB2F32C24872DA500612EC0 /* ViewController.h */,
+				DAB2F32D24872DA500612EC0 /* ViewController.m */,
+				DAB2F35B2487336300612EC0 /* SLYIndexTableView.h */,
+				DAB2F35C2487336300612EC0 /* SLYIndexTableView.m */,
+				DA75C3612494DB8D00B72DAB /* ViewReusePool.h */,
+				DA75C3622494DB8D00B72DAB /* ViewReusePool.m */,
+				DAB2F32F24872DA500612EC0 /* Main.storyboard */,
+				DAB2F33224872DA900612EC0 /* Assets.xcassets */,
+				DAB2F33424872DA900612EC0 /* LaunchScreen.storyboard */,
+				DAB2F33724872DA900612EC0 /* Info.plist */,
+				DAB2F33824872DA900612EC0 /* main.m */,
+			);
+			path = SLYIndexBar;
+			sourceTree = "<group>";
+		};
+		DAB2F34124872DA900612EC0 /* SLYIndexBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2F34224872DA900612EC0 /* SLYIndexBarTests.m */,
+				DAB2F34424872DA900612EC0 /* Info.plist */,
+			);
+			path = SLYIndexBarTests;
+			sourceTree = "<group>";
+		};
+		DAB2F34C24872DA900612EC0 /* SLYIndexBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2F34D24872DA900612EC0 /* SLYIndexBarUITests.m */,
+				DAB2F34F24872DA900612EC0 /* Info.plist */,
+			);
+			path = SLYIndexBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB2F32224872DA500612EC0 /* SLYIndexBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2F35224872DA900612EC0 /* Build configuration list for PBXNativeTarget "SLYIndexBar" */;
+			buildPhases = (
+				DAB2F31F24872DA500612EC0 /* Sources */,
+				DAB2F32024872DA500612EC0 /* Frameworks */,
+				DAB2F32124872DA500612EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLYIndexBar;
+			productName = SLYIndexBar;
+			productReference = DAB2F32324872DA500612EC0 /* SLYIndexBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB2F33D24872DA900612EC0 /* SLYIndexBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2F35524872DA900612EC0 /* Build configuration list for PBXNativeTarget "SLYIndexBarTests" */;
+			buildPhases = (
+				DAB2F33A24872DA900612EC0 /* Sources */,
+				DAB2F33B24872DA900612EC0 /* Frameworks */,
+				DAB2F33C24872DA900612EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB2F34024872DA900612EC0 /* PBXTargetDependency */,
+			);
+			name = SLYIndexBarTests;
+			productName = SLYIndexBarTests;
+			productReference = DAB2F33E24872DA900612EC0 /* SLYIndexBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB2F34824872DA900612EC0 /* SLYIndexBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2F35824872DA900612EC0 /* Build configuration list for PBXNativeTarget "SLYIndexBarUITests" */;
+			buildPhases = (
+				DAB2F34524872DA900612EC0 /* Sources */,
+				DAB2F34624872DA900612EC0 /* Frameworks */,
+				DAB2F34724872DA900612EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB2F34B24872DA900612EC0 /* PBXTargetDependency */,
+			);
+			name = SLYIndexBarUITests;
+			productName = SLYIndexBarUITests;
+			productReference = DAB2F34924872DA900612EC0 /* SLYIndexBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB2F31B24872DA500612EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = shirly.shi;
+				TargetAttributes = {
+					DAB2F32224872DA500612EC0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					DAB2F33D24872DA900612EC0 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DAB2F32224872DA500612EC0;
+					};
+					DAB2F34824872DA900612EC0 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DAB2F32224872DA500612EC0;
+					};
+				};
+			};
+			buildConfigurationList = DAB2F31E24872DA500612EC0 /* Build configuration list for PBXProject "SLYIndexBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB2F31A24872DA500612EC0;
+			productRefGroup = DAB2F32424872DA500612EC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB2F32224872DA500612EC0 /* SLYIndexBar */,
+				DAB2F33D24872DA900612EC0 /* SLYIndexBarTests */,
+				DAB2F34824872DA900612EC0 /* SLYIndexBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB2F32124872DA500612EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2F33624872DA900612EC0 /* LaunchScreen.storyboard in Resources */,
+				DAB2F33324872DA900612EC0 /* Assets.xcassets in Resources */,
+				DAB2F33124872DA500612EC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2F33C24872DA900612EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2F34724872DA900612EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB2F31F24872DA500612EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2F35D2487336300612EC0 /* SLYIndexTableView.m in Sources */,
+				DAB2F32E24872DA500612EC0 /* ViewController.m in Sources */,
+				DAB2F32824872DA500612EC0 /* AppDelegate.m in Sources */,
+				DA75C3632494DB8D00B72DAB /* ViewReusePool.m in Sources */,
+				DAB2F33924872DA900612EC0 /* main.m in Sources */,
+				DAB2F32B24872DA500612EC0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2F33A24872DA900612EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2F34324872DA900612EC0 /* SLYIndexBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB2F34524872DA900612EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2F34E24872DA900612EC0 /* SLYIndexBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB2F34024872DA900612EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB2F32224872DA500612EC0 /* SLYIndexBar */;
+			targetProxy = DAB2F33F24872DA900612EC0 /* PBXContainerItemProxy */;
+		};
+		DAB2F34B24872DA900612EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB2F32224872DA500612EC0 /* SLYIndexBar */;
+			targetProxy = DAB2F34A24872DA900612EC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB2F32F24872DA500612EC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB2F33024872DA500612EC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB2F33424872DA900612EC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB2F33524872DA900612EC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB2F35024872DA900612EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAB2F35124872DA900612EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB2F35324872DA900612EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEBMV4TR36;
+				INFOPLIST_FILE = SLYIndexBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirly.SLYIndexBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB2F35424872DA900612EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEBMV4TR36;
+				INFOPLIST_FILE = SLYIndexBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirly.SLYIndexBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAB2F35624872DA900612EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEBMV4TR36;
+				INFOPLIST_FILE = SLYIndexBarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirly.SLYIndexBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLYIndexBar.app/SLYIndexBar";
+			};
+			name = Debug;
+		};
+		DAB2F35724872DA900612EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEBMV4TR36;
+				INFOPLIST_FILE = SLYIndexBarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirly.SLYIndexBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLYIndexBar.app/SLYIndexBar";
+			};
+			name = Release;
+		};
+		DAB2F35924872DA900612EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEBMV4TR36;
+				INFOPLIST_FILE = SLYIndexBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirly.SLYIndexBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLYIndexBar;
+			};
+			name = Debug;
+		};
+		DAB2F35A24872DA900612EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEBMV4TR36;
+				INFOPLIST_FILE = SLYIndexBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirly.SLYIndexBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLYIndexBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB2F31E24872DA500612EC0 /* Build configuration list for PBXProject "SLYIndexBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2F35024872DA900612EC0 /* Debug */,
+				DAB2F35124872DA900612EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2F35224872DA900612EC0 /* Build configuration list for PBXNativeTarget "SLYIndexBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2F35324872DA900612EC0 /* Debug */,
+				DAB2F35424872DA900612EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2F35524872DA900612EC0 /* Build configuration list for PBXNativeTarget "SLYIndexBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2F35624872DA900612EC0 /* Debug */,
+				DAB2F35724872DA900612EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2F35824872DA900612EC0 /* Build configuration list for PBXNativeTarget "SLYIndexBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2F35924872DA900612EC0 /* Debug */,
+				DAB2F35A24872DA900612EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB2F31B24872DA500612EC0 /* Project object */;
+}
